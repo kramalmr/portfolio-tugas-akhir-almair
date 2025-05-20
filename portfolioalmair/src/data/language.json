@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Arabic",
+    "image": "/ExtraAct/taekwondo.png",
+    "description": "I have been practicing Taekwondo since I was 8 years old. I have won several competitions and have a black belt in this martial art.",
+    "statistics": [
+      {
+        "name": "Capability",
+        "level": 80
+      },
+      {
+        "name": "Interest",
+        "level": 90
+      },
+      {
+        "name": "Popularity ( among students )",
+        "level": 85
+      }
+    ]
+  },
+  {
+    "title": "English",
+    "image": "/ExtraAct/taekwondo.png",
+    "description": "I have been practicing Taekwondo since I was 8 years old. I have won several competitions and have a black belt in this martial art.",
+    "statistics": [
+      {
+        "name": "Capability",
+        "level": 80
+      },
+      {
+        "name": "Interest",
+        "level": 90
+      },
+      {
+        "name": "Popularity ( among students )",
+        "level": 85
+      }
+    ]
+  }
+
+]
+

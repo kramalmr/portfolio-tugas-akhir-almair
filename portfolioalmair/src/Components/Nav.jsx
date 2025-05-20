@@ -53,31 +53,31 @@ export function Navbar() {
               </svg>
             </button>
             <div
-              className={`dropdown-menu absolute w-full top-5 right-0 z-0 mt-2 bg-white rounded-md shadow-lg ${
+              className={`dropdown-menu absolute w-full top-5 right-0 z-0 mt-2 bg-white shadow-lg ${
                 isOpenDropdownMD ? "block" : "hidden"
               }`}
             >
               <Link
                 to="/progress/ekstrakurikuler"
-                className="block w-full border-b-[0.5px] border-gray-200 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                className="block w-full border-b-[0.5px] border-gray-200 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-blue-500"
               >
                 Extracurricular Activities
               </Link>
               <Link
                 to="/progress/quran"
-                className="block w-full border-b-[0.5px] border-gray-200 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                className="block w-full border-b-[0.5px] border-gray-200 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-blue-500"
               >
                 Qur'an Recitation & Memorization
               </Link>
               <Link
                 to="/progress/linguistik"
-                className="block w-full border-b-[0.5px] border-gray-200 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                className="block w-full border-b-[0.5px] border-gray-200 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-blue-500"
               >
                 Linguistics
               </Link>
               <Link
                 to="/progress/it"
-                className="block w-full border-b-[0.5px] border-gray-200 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                className="block w-full border-b-[0.5px] border-gray-200 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-blue-500"
               >
                 IT
               </Link>
