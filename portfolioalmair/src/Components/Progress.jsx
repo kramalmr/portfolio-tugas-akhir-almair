@@ -84,23 +84,29 @@ function ProgressCard2({ language }) {
           <h2 className="text-xl font-bold text-blue-500">Statistics</h2>
           <ul className="flex flex-col gap-2">
             {statistics.map((item, index) => (
-              <div key={index} className="flex flex-col gap-2">
-                <div className="ml-2 text-sm font-medium">{item.name}</div>
-                <li className="flex items-center w-full bg-gray-200 rounded-full h-5 dark:bg-gray-700">
-                  <div
-                    className="bg-blue-500 h-5 rounded-full pl-2 text-sm text-white"
-                    style={{
-                      width: `${item.level}%`,
-                    }}
-                  >
-                    {item.level}%
-                  </div>
-                </li>
-              </div>
+              ProgressBar({ key: index, name: item.name, level: item.level })
             ))}
           </ul>
         </div>
       </div>
+    </div>
+  );
+}
+
+function ProgressBar({ name, level }) {
+  return (
+    <div className="flex flex-col gap-2">
+      <div className="ml-2 text-sm font-medium">{name}</div>
+      <li className="flex items-center w-full bg-gray-200 rounded-full h-5 dark:bg-gray-700">
+        <div
+          className="bg-blue-500 h-5 rounded-full pl-2 text-sm text-white"
+          style={{
+            width: `${level}%`,
+          }}
+        >
+          {level}%
+        </div>
+      </li>
     </div>
   );
 }
@@ -120,5 +126,5 @@ function IDK() {
 }
 
 
-export { TitleProgress, ProgressCard, ProgressCard2, IDK };
+export { TitleProgress, ProgressCard, ProgressCard2, ProgressBar, IDK };
 

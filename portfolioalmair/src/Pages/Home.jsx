@@ -5,7 +5,7 @@ function Home() {
     <div className="w-full h-screen px-6 lg:px-50 py-10 font-figtree">
       <Navbar />
       <div
-        className="bg-amber-200 w-full h-[90%] mt-5 p-5 md:p-10 bg-cover bg-center bg-[url('/bam.JPG')] flex flex-col justify-end items-end text-end  text-white text-2xl font-bold"
+        className="bg-blue-500 w-full h-[90%] mt-5 p-5 md:p-10 bg-cover bg-center bg-[url('/bam.JPG')] flex flex-col justify-end items-end text-end  text-white text-2xl font-bold"
       >
         <img src="/github.png" alt="" className="w-10 mb-5 cursor-pointer"/>
         <div className="transition-all">Muhammad Akram Almair</div>
