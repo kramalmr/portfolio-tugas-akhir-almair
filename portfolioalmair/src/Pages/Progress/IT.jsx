@@ -284,7 +284,7 @@ export default function It() {
               React
             </div>
             <div className="w-full flex flex-col gap-3">
-              <ProgressBar name="Knowledge" level={50} />
+              <ProgressBar name="Understanding" level={90} />
               <ProgressBar name="Capability" level={60} />
               <ProgressBar name="Experience" level={50} />
             </div>
@@ -295,7 +295,7 @@ export default function It() {
               Git
             </div>
             <div className="w-full flex flex-col gap-3">
-              <ProgressBar name="Knowledge" level={40} />
+              <ProgressBar name="Understanding" level={80} />
               <ProgressBar name="Capability" level={60} />
               <ProgressBar name="Experience" level={60} />
             </div>
@@ -310,7 +310,7 @@ export default function It() {
               JavaScript
             </div>
             <div className="w-full flex flex-col gap-3">
-              <ProgressBar name="Knowledge" level={70} />
+              <ProgressBar name="Understanding" level={90} />
               <ProgressBar name="Capability" level={70} />
               <ProgressBar name="Experience" level={60} />
             </div>

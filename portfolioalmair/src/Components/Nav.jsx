@@ -76,6 +76,12 @@ export function Navbar() {
                 Linguistics
               </Link>
               <Link
+                to="/progress/diniyyah"
+                className="block w-full border-b-[0.5px] border-gray-200 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-blue-500"
+              >
+                Diniyyah
+              </Link>
+              <Link
                 to="/progress/it"
                 className="block w-full border-b-[0.5px] border-gray-200 px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-blue-500"
               >
@@ -158,6 +164,9 @@ export function Navbar() {
                   </li>
                   <li className="text-sm text-gray-700 hover:bg-gray-100">
                     <Link to="/progress/linguistik">Linguistics</Link>
+                  </li>
+                  <li className="text-sm text-gray-700 hover:bg-gray-100">
+                    <Link to="/progress/diniyyah">Diniyyah</Link>
                   </li>
                   <li className="text-sm text-gray-700 hover:bg-gray-100">
                     <Link to="/progress/it">IT</Link>
