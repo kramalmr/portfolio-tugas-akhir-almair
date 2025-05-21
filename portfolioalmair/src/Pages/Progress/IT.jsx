@@ -1,9 +1,75 @@
 import { useNavigate } from "react-router-dom";
 import { Navbar } from "../../Components/Nav.jsx";
-import { TitleProgress, ProgressBar, IDK } from "../../Components/Progress";
+import {
+  TitleProgress,
+  ProgressBar,
+  SummaryCard,
+  IDK,
+} from "../../Components/Progress";
 
+const summaryData = [
+  {
+    name: "React",
+    icon: "/icon/react.png",
+    understanding: 90,
+    capability: 60,
+    experience: 50,
+  },
+  {
+    name: "Git",
+    icon: "/icon/git.png",
+    understanding: 80,
+    capability: 60,
+    experience: 60,
+  },
+  {
+    name: "JavaScript",
+    icon: "/icon/js.png",
+    understanding: 90,
+    capability: 70,
+    experience: 60,
+  },
+];
+
+const summaryData2 = [
+  {
+    name: "HTML",
+    icon: "/icon/html.png",
+    understanding: 90,
+    capability: 80,
+    experience: 70,
+  },
+  {
+    name: "CSS",
+    icon: "/icon/css.png",
+    understanding: 90,
+    capability: 70,
+    experience: 80,
+  },
+  {
+    name: "Tailwind",
+    icon: "/icon/tailwind.png",
+    understanding: 90,
+    capability: 80,
+    experience: 80,
+  },
+  {
+    name: "Bootstrap",
+    icon: "/icon/bootstrap.png",
+    understanding: 80,
+    capability: 50,
+    experience: 70,
+  },
+  {
+    name: "Figma",
+    icon: "/icon/figma.png",
+    understanding: 90,
+    capability: 80,
+    experience: 70,
+  }
+];
 export default function It() {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
   return (
     <div className="w-full h-fit px-6 lg:px-50 py-10 font-figtree">
       <Navbar />
@@ -274,51 +340,36 @@ export default function It() {
           Summary
         </div>
         <div className="mt-5 flex flex-col lg:flex-row gap-5">
-          <div className="flex flex-row gap-5 border p-4 rounded-lg w-full lg:w-1/3">
-            <div className="w-[100px] flex flex-col text-blue-500 text-xl font-semibold">
-              <img
-                src="/icon/react.png"
-                alt="React"
-                className="w-10 h-10 mr-3"
-              />
-              React
-            </div>
-            <div className="w-full flex flex-col gap-3">
-              <ProgressBar name="Understanding" level={90} />
-              <ProgressBar name="Capability" level={60} />
-              <ProgressBar name="Experience" level={50} />
-            </div>
-          </div>
-          <div className="flex flex-row gap-5 border p-4 rounded-lg w-full lg:w-1/3">
-            <div className="w-[100px] flex flex-col text-blue-500 text-xl font-semibold">
-              <img src="/icon/git.png" alt="Git" className="w-10 h-10 mr-3" />
-              Git
-            </div>
-            <div className="w-full flex flex-col gap-3">
-              <ProgressBar name="Understanding" level={80} />
-              <ProgressBar name="Capability" level={60} />
-              <ProgressBar name="Experience" level={60} />
-            </div>
-          </div>
-          <div className="flex flex-row gap-5 border p-4 rounded-lg w-full lg:w-1/3">
-            <div className="w-[100px] flex flex-col text-blue-500 text-xl font-semibold">
-              <img
-                src="/icon/js.png"
-                alt="JavaScript"
-                className="w-10 h-10 mr-3"
-              />
-              JavaScript
-            </div>
-            <div className="w-full flex flex-col gap-3">
-              <ProgressBar name="Understanding" level={90} />
-              <ProgressBar name="Capability" level={70} />
-              <ProgressBar name="Experience" level={60} />
-            </div>
-          </div>
+          {summaryData.map((item, index) => (
+            <SummaryCard
+              key={index}
+              image={item.icon}
+              title={item.name}
+              understanding={item.understanding}
+              capability={item.capability}
+              experience={item.experience}
+            />
+          ))}
+        </div>
+        <div className="text-blue-500 text-xl font-bold md:text-3xl mt-10">
+          Others that i can do
+        </div>
+        <div className="mt-5 flex flex-col lg:flex-row gap-5 overflow-x-scroll">
+          {summaryData2.map((item, index) => (
+            <SummaryCard
+              key={index}
+              image={item.icon}
+              title={item.name}
+              understanding={item.understanding}
+              capability={item.capability}
+              experience={item.experience}
+            />
+          ))}
         </div>
       </div>
       <IDK />
     </div>
   );
 }
+
 

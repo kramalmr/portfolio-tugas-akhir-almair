@@ -2,7 +2,7 @@
   {
     "title": "Taekwondo",
     "image": "/ExtraAct/taekwondo.png",
-    "description": "I have been practicing Taekwondo since I was 8 years old. I have won several competitions and have a black belt in this martial art.",
+    "description": "I have been participating in taekwondo since 7th grade and have a green stripe belt in this sport.",
     "accomplishments": [
       "Learned new techniques and improved my skills",
       "Gained confidence and discipline through training",
@@ -11,11 +11,11 @@
     "statistics": [
       {
         "name": "Capability",
-        "level": 80
+        "level": 65
       },
       {
         "name": "Interest",
-        "level": 90
+        "level": 70
       },
       {
         "name": "Popularity ( among students )",
@@ -27,16 +27,16 @@
   {
     "title": "Swimming",
     "image": "/ExtraAct/swimming.jpeg",
-    "description": "I have been swimming since I was 10 years old. I have joined school competitions and have a silver medal in this sport.",
+    "description": "I have been swimming since I was a kid and have became one of my hobbies.",
     "accomplishments": [
       "Learned new strokes and improved my speed",
       "Gained endurance and strength through training",
-      "Have a Silver Medal in 50m Butterfly"
+      "Learned the Butterfly and Freestyle strokes"
     ],
     "statistics": [
       {
         "name": "Capability",
-        "level": 70
+        "level": 80
       },
       {
         "name": "Interest",
@@ -51,7 +51,7 @@
   {
     "title": "Archery",
     "image": "/ExtraAct/archery.jpg",
-    "description": "I have been practicing archery since I was 12 years old. I have joined school competitions and have a bronze medal in this sport.",
+    "description": "I have been practicing archery since 7th grade but not to interested in it",
     "accomplishments": [
       "Learned new techniques and improved my accuracy",
       "Gained strength and endurance through training",
@@ -60,15 +60,15 @@
     "statistics": [
       {
         "name": "Capability",
-        "level": 75
+        "level": 65
       },
       {
         "name": "Interest",
-        "level": 85
+        "level": 60
       },
       {
         "name": "Popularity ( among students )",
-        "level": 80
+        "level": 60
       }
     ]
   }

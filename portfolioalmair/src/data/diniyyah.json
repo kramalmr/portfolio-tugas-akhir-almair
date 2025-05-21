@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Aqidah",
+    "accomplishments": [
+      "Learned about tawhid, risalah, ma'ad, and sirah",
+      "Understood the importance of akidah in daily life",
+      "Gained confidence and discipline through understanding and practicing akidah"
+    ],
+    "statistics": [
+      {
+        "name": "Understanding",
+        "level": 90
+      },
+      {
+        "name": "Grades",
+        "level": 95
+      }
+    ]
+  }
+  ,
+  {
+    "title": "Fiqih",
+    "accomplishments": [
+      "Studied various aspects of fiqh including ibadah, muamalah, and ethics",
+      "Applied fiqh principles in daily practices",
+      "Participated in discussions and case studies on contemporary fiqh issues"
+    ],
+    "statistics": [
+      {
+        "name": "Understanding",
+        "level": 90
+      },
+      {
+        "name": "Grades",
+        "level": 95
+      }
+    ]
+  },
+  {
+    "title": "Faraidh",
+    "accomplishments": [
+      "Learned and applied the principles of inheritance and bequest in Islamic law",
+      "Understood the differences between Sunni and Shia schools of thought on the matter",
+      "Participated in discussions and debates on the application of Faraidh in contemporary society"
+    ],
+    "statistics": [
+      {
+        "name": "Understanding",
+        "level": 80
+      },
+      {
+        "name": "Grades",
+        "level": 85
+      }
+    ]
+  }
+]
+

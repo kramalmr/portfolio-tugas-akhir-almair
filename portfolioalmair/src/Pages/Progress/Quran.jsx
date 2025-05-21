@@ -6,7 +6,7 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsi
 export default function Quran() {
   // Sample data for improvement
   const data = [
-    { name: "July", Murojaah: 24 },
+    { name: "July", Murojaah: 24,  },
     { name: "Agustus", Murojaah: 20 },
     { name: "September", Murojaah: 21 },
     { name: "Oktober", Murojaah: 25 },
@@ -56,7 +56,7 @@ export default function Quran() {
         </div>
       </div>
 
-      <div className="w-full h-96 mt-20">
+      <div className="w-full h-96 mt-20 -ml-10">
         <ResponsiveContainer width="100%" height="100%">
           <LineChart data={data}>
             <CartesianGrid strokeDasharray="3 3" />

@@ -1,39 +1,39 @@
 [
   {
     "title": "Arabic",
-    "image": "/ExtraAct/taekwondo.png",
-    "description": "I have been practicing Taekwondo since I was 8 years old. I have won several competitions and have a black belt in this martial art.",
+    "image": "/lang/arab.png",
+    "description": "I have been studying Arabic since 7th grade and have a good understanding of the language. I can read and write in Arabic, and I am able to make simple conversations.",
     "statistics": [
       {
         "name": "Capability",
-        "level": 80
+        "level": 60
       },
       {
         "name": "Interest",
         "level": 90
       },
       {
-        "name": "Popularity ( among students )",
+        "name": "Understanding",
         "level": 85
       }
     ]
   },
   {
     "title": "English",
-    "image": "/ExtraAct/taekwondo.png",
-    "description": "I have been practicing Taekwondo since I was 8 years old. I have won several competitions and have a black belt in this martial art.",
+    "image": "/lang/english.png",
+    "description": "I have been studying English since I was a kid and have a good amount of vocabulary and I want to improve my speaking skills.",
     "statistics": [
       {
         "name": "Capability",
-        "level": 80
-      },
-      {
-        "name": "Interest",
         "level": 90
       },
       {
-        "name": "Popularity ( among students )",
-        "level": 85
+        "name": "Interest",
+        "level": 95
+      },
+      {
+        "name": "Understanding",
+        "level": 90
       }
     ]
   }
