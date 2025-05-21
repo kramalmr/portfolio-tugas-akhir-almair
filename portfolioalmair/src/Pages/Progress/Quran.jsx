@@ -1,7 +1,24 @@
 import { Navbar } from "../../Components/Nav";
 import { TitleProgress, IDK } from "../../Components/Progress";
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+
 
 export default function Quran() {
+  // Sample data for improvement
+  const data = [
+    { name: "July", Murojaah: 24 },
+    { name: "Agustus", Murojaah: 20 },
+    { name: "September", Murojaah: 21 },
+    { name: "Oktober", Murojaah: 25 },
+    { name: "November", Murojaah: 20 },
+    { name: "Januari", Murojaah: 18 },
+    { name: "Februari", Murojaah: 20 },
+    { name: "Maret", Murojaah: 24 },
+    { name: "April", Murojaah: 24 },
+    { name: "Mei", Murojaah: 21 },
+    { name: "Juni", Murojaah: 20 },
+  ];
+
   return (
     <div className="w-full h-fit px-6 lg:px-50 py-10 font-figtree">
       <Navbar />
@@ -38,6 +55,20 @@ export default function Quran() {
           </h1>
         </div>
       </div>
+
+      <div className="w-full h-96 mt-20">
+        <ResponsiveContainer width="100%" height="100%">
+          <LineChart data={data}>
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="name" />
+            <YAxis />
+            <Tooltip />
+            <Legend />
+            <Line type="monotone" dataKey="Murojaah" stroke="#2B7FFF" />
+          </LineChart>
+        </ResponsiveContainer>
+      </div>
+
       <IDK />
     </div>
   );
