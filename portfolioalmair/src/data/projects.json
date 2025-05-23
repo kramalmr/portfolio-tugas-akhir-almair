@@ -1,0 +1,23 @@
+[
+  {
+    "image": "/home.jpeg",
+    "title": "To Do List",
+    "description": "A simple To Do List application built with JavaScript, HTML, and CSS.",
+    "weblink": false,
+    "gitlink": "https://github.com/kramalmr/JavaScript/tree/main/groupProjectToDoList?authuser=0",
+    "technologies": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "grade": 10,
+    "semester": 1,
+    "status": true,
+    "date": {
+      "from": "24",
+      "to": "25"
+    },
+    "month": "10",
+    "year": "24"
+  }
+]
