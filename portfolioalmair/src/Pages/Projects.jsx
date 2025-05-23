@@ -6,13 +6,14 @@ function ProjectComp({projects}) {
   return (
     <div className=" p-2">
       <div
+      style={{ backgroundImage: `url(${image})` }}
         onClick={() => window.open(weblink ? weblink : gitlink, "_blank")}
-        className={`cursor-pointer text-xs flex flex-col justify-between items-start transition-all h-[30vh] bg-[url('${image}')] bg-cover bg-center p-3 text-white font-semibold rounded-xl hover:scale-105 hover:shadow-lg duration-400 hover:${
+        className={`cursor-pointer text-xs flex flex-col justify-between items-start transition-all h-[30vh] bg-cover bg-center p-3 text-white font-semibold rounded-xl hover:scale-105 hover:shadow-lg duration-400 hover:${
           status ? "shadow-blue-200" : "shadow-gray-200"
         } hover:-translate-y-2`}
       >
         <div className="flex flex-row justify-between w-full">
-          <div>
+          <div className="shadow-lg text-blue-500 bg-white rounded-lg px-2 py-1">
             {grade} Semester {semester}
           </div>
           <div className="flex flex-row gap-1">

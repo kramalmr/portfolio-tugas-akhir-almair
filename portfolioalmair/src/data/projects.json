@@ -1,6 +1,6 @@
 [
   {
-    "image": "/home.jpeg",
+    "image": "/projects/todo.png",
     "title": "To Do List",
     "description": "A simple To Do List application built with JavaScript, HTML, and CSS.",
     "weblink": false,
@@ -19,5 +19,84 @@
     },
     "month": "10",
     "year": "24"
-  }
+  },
+  {
+    "image": "/projects/bookshelf.png",
+    "title": "Bookshelf App",
+    "description": "A bookshelf app built with HTML, CSS, and JavaScript. It allows users to add, remove, and view books.",
+    "weblink": false,
+    "gitlink": "https://github.com/kramalmr/JavaScript/tree/main/projectJavaScript/programBukuAkram",
+    "technologies": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "grade": 10,
+    "semester": 1,
+    "status": true,
+    "date": {
+      "from": "4",
+      "to": "4"
+    },
+    "month": "11",
+    "year": "24"
+  },
+  {
+    "image": "/projects/shop.png",
+    "title": "E-commerce Shop",
+    "description": "An e-commerce shop built with React, Tailwind CSS, and API with Axios. It allows users to view products, add to cart, and checkout and also do CRUD operations.",
+    "weblink": "https://projek-terakhir-almair.vercel.app/?authuser=0",
+    "gitlink": "https://github.com/kramalmr/projekTerakhirAkramAlmair",
+    "technologies": ["React", "Tailwind CSS", "API Axios"],
+    "grade": 10,
+    "semester": 2,
+    "status": true,
+    "date": {
+      "from": "24",
+      "to": "25"
+    },
+    "month": "02",
+    "year": "25"
+  },
+  {
+    "image": "/projects/bmi.png",
+    "title": "BMI Calculator",
+    "description": "A simple BMI calculator built with React, it calculates your BMI and tells you if you are underweight, normal, overweight, or obese.",
+    "weblink": "https://kalkulator-bmi-almair.vercel.app/",
+    "gitlink": "https://github.com/kramalmr/kalkulator-bmi-almair",
+    "technologies": [
+      "React",
+      "Tailwind CSS"
+    ],
+    "grade": 10,
+    "semester": 2,
+    "status": true,
+    "date": {
+      "from": "5",
+      "to": "5"
+    },
+    "month": "05",
+    "year": "25"
+  },
+{
+  "image": "/projects/finance.png",
+  "title": "Finance Tracker",
+  "description": "A finance tracker application built with React and Tailwind CSS that helps users to track their income and expenses, set budgets, and view financial reports.",
+  "weblink": "https://personal-finance-tracker-almair.vercel.app/",
+  "gitlink": "https://github.com/kramalmr/PersonalFinanceTrackerAlmair",
+  "technologies": [
+    "React",
+    "Tailwind CSS"
+  ],
+  "grade": 10,
+  "semester": 2,
+  "status": true,
+  "date": {
+    "from": "6",
+    "to": "6"
+  },
+  "month": "05",
+  "year": "25"
+}
+
 ]
