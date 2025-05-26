@@ -53,7 +53,7 @@ export function Navbar() {
               </svg>
             </button>
             <div
-              className={`dropdown-menu absolute w-full top-5 right-0 z-0 mt-2 bg-white shadow-lg ${
+              className={`dropdown-menu absolute w-full top-5 right-0 z-10 mt-2 bg-white shadow-lg ${
                 isOpenDropdownMD ? "block" : "hidden"
               }`}
             >
