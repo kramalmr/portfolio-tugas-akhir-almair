@@ -1,7 +1,7 @@
 [
   {
     "image": "/projects/todo.png",
-    "title": "To Do List",
+    "title": "To Do List App",
     "description": "A simple To Do List application built with JavaScript, HTML, and CSS.",
     "weblink": false,
     "gitlink": "https://github.com/kramalmr/JavaScript/tree/main/groupProjectToDoList?authuser=0",
@@ -44,7 +44,7 @@
   {
     "image": "/projects/shop.png",
     "title": "E-commerce Shop",
-    "description": "An e-commerce shop built with React, Tailwind CSS, and API with Axios. It allows users to view products, add to cart, and checkout and also do CRUD operations.",
+    "description": "An e-commerce shop built with React, Tailwind CSS, and API with Axios. It allows users to view products, add to cart, and also do CRUD operations for Admin Users.",
     "weblink": "https://projek-terakhir-almair.vercel.app/?authuser=0",
     "gitlink": "https://github.com/kramalmr/projekTerakhirAkramAlmair",
     "technologies": ["React", "Tailwind CSS", "API Axios"],
@@ -59,6 +59,23 @@
     "year": "25"
   },
   {
+    "image": "/projects/nationalpark.png",
+    "title": "A National Park Website",
+    "description": "A website for a national park built with React, Tailwind CSS, and Framer Motion. It provides information about the park's attractions and activities.",
+    "weblink": "https://tempat-wisata-react.vercel.app/",
+    "gitlink": "https://github.com/kramalmr/tempat-wisata-react",
+    "technologies": ["React", "Tailwind CSS", "Framer"],
+    "grade": 10,
+    "semester": 2,
+    "status": true,
+    "date": {
+      "from": "21",
+      "to": "28"
+    },
+    "month": "03",
+    "year": "25"
+    },
+  {
     "image": "/projects/bmi.png",
     "title": "BMI Calculator",
     "description": "A simple BMI calculator built with React, it calculates your BMI and tells you if you are underweight, normal, overweight, or obese.",
@@ -72,8 +89,8 @@
     "semester": 2,
     "status": true,
     "date": {
-      "from": "5",
-      "to": "5"
+      "from": "13",
+      "to": "13"
     },
     "month": "05",
     "year": "25"
@@ -92,8 +109,8 @@
   "semester": 2,
   "status": true,
   "date": {
-    "from": "6",
-    "to": "6"
+    "from": "14",
+    "to": "14"
   },
   "month": "05",
   "year": "25"

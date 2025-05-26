@@ -4,11 +4,14 @@ import projects from "../data/projects.json";
 function ProjectComp({projects}) {
   const { title, description, weblink, gitlink, grade, semester, status, date, month, year, image, technologies } = projects;
   return (
-    <div className=" p-2">
+    <div className=" p-2 pb-10 mb-10 border-b-[0.5px] border-gray-200 md:border-0 h-full">
+      <div className="text-3xl md:text-xl block md:hidden mb-3 font-bold mt-3 text-center">
+        {title}
+      </div>
       <div
-      style={{ backgroundImage: `url(${image})` }}
+        style={{ backgroundImage: `url(${image})` }}
         onClick={() => window.open(weblink ? weblink : gitlink, "_blank")}
-        className={`cursor-pointer text-xs flex flex-col justify-between items-start transition-all h-[30vh] bg-cover bg-center p-3 text-white font-semibold rounded-xl hover:scale-105 hover:shadow-lg duration-400 hover:${
+        className={`mb-5 md:mb-0 cursor-pointer text-xs flex flex-col justify-between items-start transition-all h-[30vh] bg-cover bg-center p-3 text-white font-semibold rounded-xl hover:scale-105 hover:shadow-lg duration-400 hover:${
           status ? "shadow-blue-200" : "shadow-gray-200"
         } hover:-translate-y-2`}
       >
@@ -44,7 +47,9 @@ function ProjectComp({projects}) {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center text-center">
-        <div className="text-xl font-bold mt-3 md:text-center">{title}</div>
+        <div className="text-xl hidden md:block font-bold mt-3 md:text-center">
+          {title}
+        </div>
         <div className="text-sm text-gray-500  md:text-center">
           {description}
         </div>
@@ -75,8 +80,8 @@ export default function Projects() {
   return (
     <div className="w-full h-fit px-6 lg:px-50 py-10 font-figtree">
       <Navbar />
-      <div className="text-3xl font-bold mb-5 text-blue-500 text-center mt-10">
-        Projects!
+      <div className="text-3xl font-bold mb-5 text-blue-500 text-center my-10">
+        Some of My Projects!
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((item) => (
