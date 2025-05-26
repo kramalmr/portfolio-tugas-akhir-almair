@@ -6,12 +6,14 @@ import Linguistics from "./Pages/Progress/Linguistics.jsx";
 import It from "./Pages/Progress/IT.jsx";
 import Projects from "./Pages/Projects.jsx";
 import Diniyyah from "./Pages/Progress/diniyyah";
+import About from "./Pages/About.jsx";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="/progress/ekstrakurikuler" element={<ExtraActivities />} />
         <Route path="/progress/quran" element={<Quran />} />
         <Route path="/progress/linguistik" element={<Linguistics />} />
