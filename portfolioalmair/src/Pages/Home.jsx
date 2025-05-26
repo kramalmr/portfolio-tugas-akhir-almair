@@ -9,6 +9,9 @@ function Home() {
           href="
           https://github.com/kramalmr
         "
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mb-5 transition-all hover:scale-110"
         >
           <img src="/github.png" alt="" className="w-10 mb-5 cursor-pointer" />
         </a>

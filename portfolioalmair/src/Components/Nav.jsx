@@ -29,9 +29,9 @@ export function Navbar() {
             About
           </Link>
           <div
-            className="dropdown relative group"
-            onMouseEnter={handleDropdownMD}
-            onMouseLeave={handleDropdownMD}
+            className="dropdown relative group cursor-pointer"
+            onMouseEnter={() => setIsOpenDropdownMD(true)}
+            onMouseLeave={() => setIsOpenDropdownMD(false)}
           >
             <button className=" group-hover:text-blue-500 p-2 text-xl z-11 transition-all duration-200 group-hover:font-black font-semibold text-center">
               2024/2025 Progress
